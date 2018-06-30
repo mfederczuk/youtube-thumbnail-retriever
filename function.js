@@ -6,7 +6,7 @@ javascript:(function(){
 	/* Checking if the current URL is a YouTube video */
 	for(; i < ytUrl.length; i++) {
 		if(url.charAt(i) != ytUrl.charAt(i)) {
-			alert("This website is not YouTube video!");
+			alert("This website is not a YouTube video!");
 			return;
 		}
 	}
